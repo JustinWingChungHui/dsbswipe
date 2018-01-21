@@ -1,6 +1,6 @@
 require([ 
-    'node_modules/photoswipe/dist/photoswipe.js', 
-    'node_modules/photoswipe/dist/photoswipe-ui-default.js' 
+    'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js', 
+    'https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js' 
 ], function( PhotoSwipe, PhotoSwipeUI_Default ) {
 
     var pswpElement = document.querySelectorAll('.pswp')[0];
