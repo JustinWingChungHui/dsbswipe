@@ -62,7 +62,7 @@ require([
             document.getElementById('loading').style.display = 'block';
             var url = items[index].matchurl;
             gallery.close();
-            window.location.href = url;
+            window.location = url;
         }
         
 
