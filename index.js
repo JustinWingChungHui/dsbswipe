@@ -63,6 +63,7 @@ require([
             var url = items[index].matchurl;
             gallery.close();
             window.location = url;
+            return false;
         }
         
 
